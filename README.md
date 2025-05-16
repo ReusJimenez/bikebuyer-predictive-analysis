@@ -1,19 +1,25 @@
-# 🚴‍♂️ Análisis Predictivo – Probabilidad de Compra (Dataset Bikebuyers)
+# 🚴‍♂️ Análisis Predictivo – Probabilidad de Compra (Dataset Bikebuyer)
 
-Este notebook presenta cinco modelos de clasificación para predecir la intención de compra de clientes, con enfoque en segmentación.
+Notebook para predecir la intención de compra de clientes mediante cinco modelos de clasificación, con enfoque en segmentación.
 
 ## 🎯 Objetivos
 
 - Documentar paso a paso en un notebook.
 - Aplicar el proceso SEMMA al dataset `bikebuyer`.
-- Realizar limpieza de datos, análisis exploratorio (EDA) y entrenamiento de 5 modelos de machine learning.
-- Evaluar desempeño usando F1-score, AUC y matriz de confusión.
+- Realizar limpieza de datos, análisis exploratorio y entrenamiento de 5 modelos de machine learning.
+- Evaluar desempeño de los modelos de clasificación
 - Extraer conclusiones relevantes basadas en los resultados.
-<!--
+
 ## 📌 Acciones Principales
-- A
-- B
--->
+
+- Carga y exploración inicial del dataset.
+- Análisis exploratorio de datos (EDA) con visualizaciones para variables clave como ingreso, hijos, autos y distancia de traslado.
+- Limpieza y transformación del dataset: manejo de valores nulos y eliminación de columnas irrelevantes.
+- Codificación de variables categóricas para preparar los datos para el modelado.
+- División del dataset en conjuntos de entrenamiento y prueba.
+- Entrenamiento de cinco modelos de clasificación: Árbol de Decisión, KNN, Gradient Boosting, Random Forest y Extra Trees.
+- Evaluación de modelos mediante F1-score, matriz de confusión y curva ROC-AUC.
+
 ## ✅ Conclusiones
 
 - En términos de **exactitud** y **AUC-ROC**, el **Árbol de Decisión** mostró el mejor rendimiento global, seguido de cerca por el **KNN**, mientras que el **Gradient Boosting** tuvo un rendimiento sólido pero ligeramente inferior.
